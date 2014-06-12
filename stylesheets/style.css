@@ -1,0 +1,281 @@
+/*Global*/
+
+body, h2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3, h4, h5, h6{
+  font-family: 'Fanwood Text', serif;
+}
+
+
+
+/*Header*/
+
+div#header {
+    background-color: #3aaa5e;
+    background-image: url('../images/glasses-macbook.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 500px;
+
+}
+
+header {
+    margin-top: 20px;
+}
+header h1 {
+    margin:0;
+    display: inline;
+}
+header nav {
+    display:inline;
+}
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+header nav ul li {
+    display: inline;
+    padding:0px 20px;
+}
+
+/*header nav ul li.selected {
+    border-bottom: 4px solid #309852;
+    padding-bottom: 10px;
+}*/
+
+header nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*header nav ul li a:hover {
+    color:black;
+}*/
+
+a, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Marketing*/
+
+div#marketing {
+    text-align: center;
+    margin-top: 50px;
+}
+div#marketing h1 {
+    /*font-weight: 700;*/
+    color:#fff;
+    font-size: 60px;
+    margin:0;
+    letter-spacing: -0.05em;
+    line-height: .9;
+}
+div#marketing h2 {
+    color:#fff;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+div#try {
+    /*margin-bottom: -6px;*/
+    text-align: center;
+}
+
+div#try form {
+    margin:0 0 15px 0;
+    padding:0;
+}
+div#try form input {
+    display: block;
+    width:200px;
+    border:none;
+    padding: 12px;
+    margin: 0 auto;
+}
+div#try button {
+    background: #981e32!important;
+    color:#fff;
+    text-shadow:none;
+    border:none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding:8px 15px 11px;
+    margin-top: 15px;
+}
+
+/* Benefits */
+div#benefits {
+    text-align: center;
+    padding:60px 0;
+}
+div#benefits h3 {
+    line-height: 1;
+    font-weight: 400;
+}
+div#benefits span.circle {
+    background-color: grey;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: relative;
+    margin:0 auto 20px;
+}
+
+/*Feature one*/
+div#feature_one {
+    background-color: #ebebeb;
+}
+div#feature_one img {
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+div#feature_one h4, div#feature_two h4 {
+    line-height: 1.2;
+    margin-top:70px;
+}
+div#feature_two {
+    padding:60px 0;
+}
+
+div#feature_one h4{
+    color: #981e32;
+}
+
+div#feature_two h4{
+    color: #981e32;
+}
+
+div#feature_two a{
+    color: green;
+    text-decoration: underline;
+}
+
+div#feature_two a:visited{
+    color: green;
+}
+
+
+
+
+/*Email*/
+div#email {
+    background-color: #ebebeb;
+    text-align: center;
+    padding:60px 0 20px;
+}
+div#email h5 {
+    font-size: 40px;
+    font-weight: 900;
+    color:#981e32;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+div#email h6 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+div#email form {
+    margin:0 0 15px 0;
+    padding:0;
+}
+div#email form input {
+    display: inline;
+    width:200px;
+    border:none;
+    padding: 12px;
+}
+div#email form button {
+    background: #981e32!important;
+    color:#fff;
+    text-shadow:none;
+    border:none;
+    font-family: 'sans-serif', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding:8px 15px 11px;
+}
+
+/*footer*/
+div#footer {
+    background-color: #981e32;
+    color:black;
+}
+div#footer nav {
+    margin:10px 0 0;
+}
+div#footer p {
+    margin:10px 0 0;
+}
+div#footer nav ul {
+    list-style-type: none;
+}
+div#footer nav ul li {
+    display:inline;
+}
+div#footer nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+.right {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-width: 479px) {
+    header h1 {
+        display:block;
+        text-align: center;
+        margin-top:20px;
+    }
+    header nav {
+        display:block;
+    }
+    header nav ul {
+        float:none;
+        text-align: center;
+    }
+    header nav ul li {
+        display: block;
+    }
+    header nav ul li.selected {
+        border-bottom: none;
+        padding: 5px 0;
+        /*background-color: #309852;*/
+    }
+    /* Add this in next */
+    div#marketing {
+        margin-top: 20px;
+    }
+    div#marketing h1 {
+        font-size:45px;
+        margin-bottom: 5px;
+    }
+    div#marketing h2 {
+        line-height: 1.2;
+    }
+    div#email form input {
+        width:50%;
+    }
+    div#footer nav {
+        text-align: center;
+    }
+    div#footer div.right {
+        text-align: center;
+    }
+}
+
